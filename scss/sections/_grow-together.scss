@@ -1,0 +1,19 @@
+.grow-together {
+    background-image: url(../../images/bg-section-top-mobile-2.svg), url(../../images/bg-section-bottom-mobile-1.svg);
+    background-repeat: no-repeat no-repeat;
+    background-size: 100% 100%;
+    background-position-x: 70% 90%;
+    background-position-y: 30% 40%;
+    display: block;
+    text-align: center;
+}
+
+.grow-together__feature {
+    padding: 50px;
+}
+
+.grow-together__headings {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+}
