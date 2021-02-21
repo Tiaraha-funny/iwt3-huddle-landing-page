@@ -1,0 +1,23 @@
+.headings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.header__button {
+    border: 1px solid #ff8fd8;
+    border-radius: 71px;
+    color: #ff8fd8;
+    background-color: transparent;
+    text-align: center;
+    width: 130px;
+    height: 40px;
+    outline: none;
+}
+
+.header {
+    width: 50%;
+}
