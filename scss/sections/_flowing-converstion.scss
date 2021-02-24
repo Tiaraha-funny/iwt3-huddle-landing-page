@@ -9,3 +9,14 @@
     margin: auto;
     padding: 30px;
 }
+
+@media (min-width: 1000px) {
+    .flowing-converstion {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .flowing-converstion__headings {
+        text-align: left;
+    }
+}

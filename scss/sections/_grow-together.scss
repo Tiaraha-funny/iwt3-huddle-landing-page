@@ -17,3 +17,18 @@
     margin: auto;
     padding: 30px;
 }
+
+
+@media (min-width: 1000px) {
+    .grow-together__header {
+        margin: 0;
+    padding: 0;
+    }
+    .grow-together__headings {
+        text-align: left;
+    }
+
+    .grow-together {
+        display: flex;
+    }
+}

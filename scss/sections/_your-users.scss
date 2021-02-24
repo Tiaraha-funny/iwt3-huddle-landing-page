@@ -14,3 +14,13 @@
   margin: auto;
   padding: 30px;
 }
+
+@media (min-width: 1000px) {
+  .your-users {
+    display: flex;
+  }
+
+  .your-users__headings {
+    text-align: left;
+  }
+}

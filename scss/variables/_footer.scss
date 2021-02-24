@@ -72,3 +72,18 @@
 .footer__navigation--lists--items {
     margin-right: 20px;
 }
+
+@media (min-width: 1000px) {
+    .footer {
+        padding-top: 52px;
+    }
+
+    .footer__container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+}

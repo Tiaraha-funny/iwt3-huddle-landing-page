@@ -9,3 +9,9 @@
     box-shadow: rgb(187, 186, 186) 3px 4px 5px;
     text-align: center;
 }
+
+@media (min-width: 1000px) {
+    .get-start-button {
+        width: 20%;
+    }
+}
