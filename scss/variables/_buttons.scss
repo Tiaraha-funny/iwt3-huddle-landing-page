@@ -1,5 +1,5 @@
 .get-start-button {
-    background-color: #ff52bf;
+    background-color: hsl(322, 100%, 66%);
     color: #fff;
     border-radius: 50px;
     width: 70%;
@@ -8,6 +8,11 @@
     border: none;
     box-shadow: rgb(187, 186, 186) 3px 4px 5px;
     text-align: center;
+}
+
+.get-start-button:hover,
+.get-start-button:focus {
+    background-color: hsl(321, 100%, 78%);
 }
 
 @media (min-width: 1000px) {

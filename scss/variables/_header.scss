@@ -8,14 +8,20 @@
 }
 
 .header__button {
-    border: 1px solid #ff8fd8;
+    border: 1px solid hsl(322, 100%, 66%);
     border-radius: 71px;
-    color: #ff8fd8;
+    color: hsl(322, 100%, 66%);
     background-color: transparent;
     text-align: center;
     width: 130px;
     height: 40px;
     outline: none;
+}
+
+.header__button:hover,
+.header__button:focus {
+border: 1px solid hsl(321, 100%, 78%);
+color: hsl(321, 100%, 78%);
 }
 
 .header {
